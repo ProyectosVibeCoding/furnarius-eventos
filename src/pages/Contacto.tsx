@@ -324,21 +324,6 @@ const Contacto = () => {
                   (Placeholders editables)
                 </p>
               </div>
-
-              {/* Instagram */}
-              <div className="p-6 bg-charcoal border border-border/50 rounded-sm">
-                <h3 className="text-editorial-sm text-cream mb-4">
-                  Seguinos en Instagram
-                </h3>
-                <a
-                  href="https://www.instagram.com/furnariuseventos/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-body-sm text-primary hover:underline"
-                >
-                  @furnariuseventos
-                </a>
-              </div>
             </div>
           </div>
         </div>
