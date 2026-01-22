@@ -47,9 +47,6 @@ const Index = () => {
           </video>
         </div>
 
-        {/* Overlay */}
-        <div className="absolute inset-0 overlay-dark" />
-
         {/* Content */}
         <div className="relative z-10 container-luxury text-center stagger-children">
           <p className="text-label text-primary mb-6">Creadores de Eventos</p>
