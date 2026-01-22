@@ -40,13 +40,16 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
           {/* Brand Column */}
           <div className="lg:col-span-2">
-            <Link to="/" className="inline-block mb-6">
-              <img
-                src={logo}
-                alt="Furnarius"
-                className="h-12 w-auto brightness-0 invert"
-              />
-            </Link>
+          <Link
+            to="/"
+            className="relative z-10 flex items-center gap-3 transition-opacity duration-300 hover:opacity-80"
+          >
+            <img
+              src={logo}
+              alt="Furnarius"
+              className="h-10 md:h-12 w-auto invert"
+            />
+          </Link>
             <p className="text-body text-muted-foreground max-w-md mb-6">
               Creadores de experiencias únicas. Diseño, producción y
               ambientación de eventos que trascienden lo ordinario.

@@ -68,12 +68,7 @@ const Index = () => {
             </Link>
           </div>
         </div>
-
-        <!--{/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-fade-in">
-          <span className="text-label text-cream/50 text-[10px]"></span>
-          <div className="w-px h-8 bg-gradient-to-b from-cream/50 to-transparent" />
-        </div>-->
+       
       </section>
 
       {/* Quiénes Somos Teaser */}
