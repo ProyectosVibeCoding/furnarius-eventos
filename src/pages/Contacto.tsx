@@ -56,7 +56,7 @@ const Contacto = () => {
   };
 
   const whatsappUrl =
-    "https://wa.me/5493517051171?text=Hola,%20quiero%20cotizar%20un%20evento%20con%20Furnarius.";
+    "https://wa.me/5493511111111?text=Hola,%20quiero%20cotizar%20un%20evento%20con%20Furnarius.";
 
   return (
     <main>
