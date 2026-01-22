@@ -6,7 +6,7 @@ interface WhatsAppButtonProps {
 }
 
 const WhatsAppButton = ({
-  phoneNumber = "5493515555555", // Placeholder - editable
+  phoneNumber = "5493517051171", // Placeholder - editable
   message = "Hola, quiero cotizar un evento con Furnarius.", // Placeholder - editable
 }: WhatsAppButtonProps) => {
   const encodedMessage = encodeURIComponent(message);

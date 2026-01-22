@@ -69,11 +69,11 @@ const Index = () => {
           </div>
         </div>
 
-        {/* Scroll indicator */}
+        <!--{/* Scroll indicator */}
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-fade-in">
-          <span className="text-label text-cream/50 text-[10px]">Scroll</span>
+          <span className="text-label text-cream/50 text-[10px]"></span>
           <div className="w-px h-8 bg-gradient-to-b from-cream/50 to-transparent" />
-        </div>
+        </div>-->
       </section>
 
       {/* Quiénes Somos Teaser */}
@@ -281,7 +281,7 @@ const Index = () => {
               Hablemos
             </Link>
             <a
-              href="https://wa.me/5493515555555?text=Hola,%20quiero%20cotizar%20un%20evento%20con%20Furnarius."
+              href="https://wa.me/+54 9 3517 05-1171?text=Hola,%20quiero%20cotizar%20un%20evento%20con%20Furnarius."
               target="_blank"
               rel="noopener noreferrer"
               className="btn-luxury-outline"

@@ -99,10 +99,10 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="tel:+5493515555555"
+                  href="tel:5493517051171"
                   className="hover:text-primary transition-colors duration-300"
                 >
-                  +54 9 351 555-5555
+                  351 705-1171
                 </a>
               </li>
               <li>Córdoba, Argentina</li>
