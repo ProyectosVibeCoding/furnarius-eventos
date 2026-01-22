@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/logo-furnarius.png";
+
 
 const navItems = [
   { label: "Inicio", path: "/" },
@@ -45,10 +45,10 @@ const Header = () => {
             className="relative z-10 flex items-center gap-3 transition-opacity duration-300 hover:opacity-80"
           >
             <img
-              src={logo}
-              alt="Furnarius"
-              className="h-10 md:h-12 w-auto invert"
-            />
+  src="/logo-furnarius.png"
+  alt="Furnarius"
+  className="h-10 md:h-12 w-auto invert"
+/>
           </Link>
 
           {/* Desktop Navigation */}

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Instagram, Facebook, Youtube, Linkedin } from "lucide-react";
-import logo from "@/assets/logo-furnarius.png";
+
 
 const socialLinks = [
   {
@@ -45,10 +45,10 @@ const Footer = () => {
             className="relative z-10 flex items-center gap-3 transition-opacity duration-300 hover:opacity-80"
           >
             <img
-              src={logo}
-              alt="Furnarius"
-              className="h-10 md:h-12 w-auto invert"
-            />
+  src="/logo-furnarius.png"
+  alt="Furnarius"
+  className="h-10 md:h-12 w-auto invert"
+/>
           </Link>
             <p className="text-body text-muted-foreground max-w-md mb-6">
               Creadores de experiencias únicas. Diseño, producción y
